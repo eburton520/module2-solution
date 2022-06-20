@@ -7,11 +7,11 @@ h1 {
 	font-size: 40px;
 	margin-bottom: 10px;
 }
-/*p {
+*p {
 	width: 50%;
 	float: left;
 	padding: 10px;
-}*/
+}
 /* Desktop Devices*/
 @media (min-width: 992px){
 	.lg-box-1, .lg-box-2, .lg-box-3 {

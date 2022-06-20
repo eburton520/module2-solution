@@ -1,7 +1,33 @@
 * {
 	font-family: Comic Sans MS, Comic Sans, cursive;
+	box-sizing: border-box;
 }
 h1 {
 	text-align: center;
 	font-size: 40px;
+	margin-bottom: 10px;
+}
+/*p {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}*/
+/* Desktop Devices*/
+@media (min-width: 992px){
+	.lg-box-1, .lg-box-2, .lg-box-3 {
+		border: 1px solid black;
+	}
+}
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+	.md-box-1, .md-box-2, .md-box-3 {
+		border: 1px solid black;
+	}
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+	.sm-box-1, .sm-box-2, .sm-box-3 {
+		border: 1px solid black;
+	}
 }
